@@ -8,7 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "dateScript": "./src/date.js"
+    "dateScript": "./src/date.js",
+    "numGame": "./src/num.js"
   },
   "author": "",
   "license": "ISC",
