@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "http": "node -r dotenv/config src/http.js"
+    "http": "node src/http.js"
   },
   "author": "",
   "license": "ISC",

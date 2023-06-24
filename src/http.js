@@ -5,7 +5,9 @@ const {
     stdout: output,
 } = require('node:process');
 
-const myAPIKey = process.env.myAPIKey;
+const dotenv = require('dotenv').config(process.env);
+
+const myAPIKey = dotenv.parsed.myAPIKey;
 
 console.log(`Введите город`);
 const rl = readline.createInterface({ input, output });
